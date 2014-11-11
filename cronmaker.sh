@@ -1,6 +1,6 @@
 #!/bin/sh
 
-USAGE=" LightSoft CronMaker\\n
+USAGE=" CronMaker\\n
 \\n
 Usage: cronmaker.sh [-hvg] [-c config_file] [-t tmp_dir]\\n
 \\n
@@ -12,7 +12,7 @@ config_file=$current_dir/cronmaker.ini
 remake=0
 verbose=0
 install_cron=1
-mails="ovpstat@bugs.lightsoft.ru"
+mails="ovpstat@bugs.ru"
 
 
 
